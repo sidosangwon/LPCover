@@ -6241,6 +6241,14 @@ tbody.collapse.in {
   background: #ad2930;
 }
 
+.social-media-links a.it {
+  background: #537fa1;
+}
+.social-media-links a.it:hover, .social-media-links a.pn:focus {
+  background: #346185;
+}
+
+
 .addthis_default_style {
   text-align: left;
   list-style: none;
