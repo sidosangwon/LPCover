@@ -1317,7 +1317,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 25px;
+  font-size: 23px;
 }
 
 h4, .h4 {
@@ -3711,7 +3711,7 @@ tbody.collapse.in {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 320px;
+  width: 430px;
   height: auto;
 }
 @media screen and (max-width: 800px) {
@@ -6394,3 +6394,8 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
       /*padding-bottom: 20%;*/
    }
 }
+
+
+/*.container div.row{
+  margin-top: 100px;
+}*/
