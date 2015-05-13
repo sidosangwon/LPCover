@@ -3680,14 +3680,14 @@ tbody.collapse.in {
   }
   .container .jumbotron {
     padding-left: 60px;
-    padding-right: 60px;
+    padding-right: 00px;
   }
   .jumbotron h1,
   .jumbotron .h1 {
     font-size: 44px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 320px) {
+@media screen and (min-width: 768px) and (max-width: 20px) {
   .jumbotron h1,
   .jumbotron .h1 {
     font-size: 34px;
@@ -3711,17 +3711,27 @@ tbody.collapse.in {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 430px;
+  width: 500px;
   height: auto;
 }
+
+@media screen and (max-width: 1200px) {
+  .jumbotron .img-iPhone {
+    margin-top: 50px;
+    width: 450px;
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .jumbotron .img-iPhone {
     margin-top: 50px;
   }
 }
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 540px) {
   .jumbotron .img-iPhone {
-    width: 250px;
+    width: 350px;
     height: auto;
   }
 }
