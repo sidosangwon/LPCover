@@ -3742,6 +3742,13 @@ tbody.collapse.in {
   }
 }
 
+@media screen and (max-width: 480px){
+  .linkTextingWidget { display: none !important; }
+}
+
+
+
+
 .jumbotron .btn-app-store {
   margin-top: 40px;
 }
@@ -6417,4 +6424,6 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 /*.container div.row{
   margin-top: 100px;
 }*/
+
+
 
