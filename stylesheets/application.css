@@ -3743,7 +3743,7 @@ tbody.collapse.in {
 }
 
 @media screen and (max-width: 480px){
-  #lTextingframe { display: none !important; }
+  .lTextingframe { display: none !important; }
 }
 
 
@@ -6420,6 +6420,9 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
    }
 }
 
+.lTextingframe{
+   margin-left:24px;
+}
 
 /*.container div.row{
   margin-top: 100px;
