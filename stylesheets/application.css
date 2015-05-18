@@ -3743,7 +3743,7 @@ tbody.collapse.in {
 }
 
 @media screen and (max-width: 480px){
-  .linkTextingWidget { display: none !important; }
+  #lTextingframe { display: none !important; }
 }
 
 
