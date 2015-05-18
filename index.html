@@ -53,7 +53,24 @@
 	<script>
 	    var _intro_bar = window._intro_bar || {};(function() {var i,e;i=document.createElement("script"), i.type='text/javascript';i.async=1, i.src="//cdn.introbar.com/js/v1.js", e=document.getElementsByTagName("script")[0], e.parentNode.insertBefore(i,e);})();
 	    _intro_bar.account_id = '555994b20172c';
+
+
 	</script>	
+	
+	<script type="text/javascript">
+        function codeAddress() {
+                        
+			var cImg=document.createElement("img");
+			cImg.setAttribute('src', 'images/cat.png');
+			cImg.setAttribute('alt', 'na');
+			cImg.setAttribute('height', '118px');
+			cImg.setAttribute('width', '150px');
+
+			var element = document.getElementById("ib-content");
+			element.insertBefore(cImg, element.childNodes[0]);
+        }
+        window.onload = codeAddress;
+        </script>
   </head>
   <body class="index" id="to-top">
 
@@ -80,6 +97,7 @@
         <div class="row">
 
           <div class="col-md-6" style="margin-top:70px;">
+
 
             <!-- Logo -->
             <figure class="text-center" style="margin-top:-10px;">
